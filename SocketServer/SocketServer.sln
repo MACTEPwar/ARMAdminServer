@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{1F16A104-1729-4961-8D7A-4111E248132E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMSocketClient", "ARMSocketClient\ARMSocketClient.csproj", "{3BFF4932-9511-4E29-9841-BA7440EBA6B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F16A104-1729-4961-8D7A-4111E248132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F16A104-1729-4961-8D7A-4111E248132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F16A104-1729-4961-8D7A-4111E248132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFF4932-9511-4E29-9841-BA7440EBA6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFF4932-9511-4E29-9841-BA7440EBA6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFF4932-9511-4E29-9841-BA7440EBA6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFF4932-9511-4E29-9841-BA7440EBA6B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
