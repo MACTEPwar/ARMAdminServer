@@ -10,6 +10,7 @@ namespace SocketServer
     {
         static void Main(string[] args)
         {
+            //Я тут чтото написал
         }
     }
 }
