@@ -15,7 +15,7 @@ namespace SocketServer
         {
 
             // получаем адреса для запуска сокета
-            IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), port);
+            IPEndPoint ipPoint = new IPEndPoint(IPAddress.Parse("192.168.13.7"), port);
 
             // создаем сокет
             Socket listenSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -29,9 +29,12 @@ namespace SocketServer
 
                 Console.WriteLine("Сервер запущен. Ожидание подключений...");
 
+                Socket handler = listenSocket.Accept();
+
                 while (true)
                 {
-                    Socket handler = listenSocket.Accept();
+                    Console.WriteLine("Цикл true");
+                    
                     // получаем сообщение
                     StringBuilder builder = new StringBuilder();
                     int bytes = 0; // количество полученных байтов
@@ -39,6 +42,7 @@ namespace SocketServer
 
                     do
                     {
+                        Console.WriteLine("Цикл");
                         bytes = handler.Receive(data);
                         builder.Append(Encoding.Unicode.GetString(data, 0, bytes));
                     }
@@ -51,8 +55,8 @@ namespace SocketServer
                     data = Encoding.Unicode.GetBytes(message);
                     handler.Send(data);
                     // закрываем сокет
-                    handler.Shutdown(SocketShutdown.Both);
-                    handler.Close();
+                    //handler.Shutdown(SocketShutdown.Both);
+                    //handler.Close();
                 }
             }
             catch (Exception ex)

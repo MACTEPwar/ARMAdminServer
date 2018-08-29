@@ -1,0 +1,10 @@
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\bin\Debug\ARMSocketClient.exe.config
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\bin\Debug\ARMSocketClient.exe
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\bin\Debug\ARMSocketClient.pdb
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.Form1.resources
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.Properties.Resources.resources
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.csproj.GenerateResource.cache
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.csproj.CoreCompileInputs.cache
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.exe
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.pdb
+C:\Users\shebanits.vitaliy\Source\Repos\ARMAdminServer\SocketServer\ARMSocketClient\obj\Debug\ARMSocketClient.csprojAssemblyReference.cache
